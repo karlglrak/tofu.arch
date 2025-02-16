@@ -24,6 +24,12 @@ Four nested tiers are defined for services within the architecture. These are:
 
 A service belongs to a zone, a zone belongs to an environment and so on. In this manner, each service has a co-ordinate system of `org.env.zone.service`.
 
+## Infrastructure as Code
+
+Infrastructure as code provides the ability to have versioned, tracked and repeatable definitions of the infrastructure used within an organisation.
+
+Details of how infrastructure as code is used as part of this model are defined in the supplemental document [IAC.md](./IAC.md).
+
 ## Security
 
 ### Zonal Security Groups
